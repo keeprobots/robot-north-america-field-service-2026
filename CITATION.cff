@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this report, please cite it as below."
+title: "2026 Robot Makers Entering North America: Field Service and After-Sales Report"
+type: report
+authors:
+  - name: "KeepRobots"
+date-released: 2026-10-12
+url: "https://keeprobots.com/reports/robot-north-america-field-service-2026/"
+license: CC-BY-4.0
