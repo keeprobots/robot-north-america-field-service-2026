@@ -163,8 +163,15 @@ For information only; not legal, tax, customs, immigration or investment advice.
 
 ## Work with us: field technicians and service partners in North America
 
-We are building a network of field technicians and regional service partners across Canada and the US to cover robot deployment, repair and maintenance closer to customers. If you are an independent technician or a service company with robotics, automation or electro-mechanical experience, we'd like to hear from you. See [keeprobots.com/partners](https://keeprobots.com/partners/) or email partners@keeprobots.com.
+We are building a network of field technicians and regional service partners across Canada and the US to cover robot deployment, repair and maintenance closer to customers. If you are an independent technician or a service company with robotics, automation or electro-mechanical experience, we'd like to hear from you. See [keeprobots.com/partners/technicians](https://keeprobots.com/partners/technicians/) ([中文](https://keeprobots.com/zh/partners/technicians/)) or email partners@keeprobots.com.
 
 ## About KeepRobots
 
-[KeepRobots](https://keeprobots.com) is a robot field-service company based in Vancouver, British Columbia: on-site deployment, after-sales repair, preventive maintenance, pre-sales demos and spare-parts storage for robots made by other companies. Based in Greater Vancouver; elsewhere in Canada and in the United States, work is scoped per project. English and Chinese. We don't manufacture or sell robots and are not an exclusive dealer for any brand. Not affiliated with Keep Robotics or similarly named companies.
+[KeepRobots](https://keeprobots.com) is a robot field-service company based in Vancouver, British Columbia: on-site deployment, after-sales repair, preventive maintenance, pre-sales demos and spare-parts storage for robots made by other companies. Based in Greater Vancouver; elsewhere in Canada and in the United States, work is scoped per project. English and Chinese. We don't manufacture or sell robots and are not an exclusive dealer for any brand. Not affiliated with Keep Robotics or similarly named companies. KeepRobots is a brand of Toprobe Company Corporation.
+
+Related pages:
+
+- [Field-service partner for robot makers entering North America](https://keeprobots.com/partners/north-america/) · [中文：北美现场服务合作](https://keeprobots.com/zh/partners/north-america/)
+- [Robot repair and field service in Canada: coverage, process, pricing](https://keeprobots.com/service/canada/)
+- [Robot service companies in Canada and Vancouver (2026 comparison)](https://keeprobots.com/guides/robot-service-companies-canada/) · [中文：加拿大机器人售后服务商对比](https://keeprobots.com/zh/guides/canada-robot-service-providers/)
+- [中文首页](https://keeprobots.com/zh/)
