@@ -122,6 +122,10 @@ For models already authorized: stock wear parts and key modules near customers o
 
 ---
 
+## Practical checklists
+
+- [Robot Site Readiness Checklist (Canada & US)](docs/site-readiness-checklist.md): a copy-paste list of what to confirm with the customer's building before you ship a mobile robot or arm (floors, power, Wi-Fi, elevators, fire code, safety standards, privacy, COI, receiving), with a go/no-go rule and a one-page summary table.
+
 ## Files in this repository
 
 | File | What it is |
