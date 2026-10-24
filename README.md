@@ -40,7 +40,7 @@ Meanwhile, public distribution announcements usually list sales, deployment and 
   - New models can't get FCC equipment authorization unless they receive a Conditional Approval, which the Department of War evaluates and which requires a plan to move production to the US.
   - "Foreign-produced" is judged by place of production under the federal "domestic end product" definition (48 CFR 25.101(a)), not by company nationality, so building in Canada or Europe doesn't avoid it.
   - Previously authorized models can still be imported, sold and used `[fcc-factsheet]`, and DA 26-789 allows certain software and firmware updates to them until at least 1 January 2029 `[fcc-789]`.
-  - As of the FCC's 9 October 2026 update, only three robot Conditional Approvals had been published: Husqvarna robot mowers (DA 26-957, 9 Sep), ANSCER AMRs (DA 26-996, 18 Sep) and a Matic Robots floor cleaner (DA 26-1063, 2 Oct) `[fcc-ca]`. None was for a humanoid or quadruped.
+  - As of 21 October 2026, the FCC had published five robot Conditional Approvals: Husqvarna robot mower platforms (DA 26-957, 9 Sep), ANSCER AMRs (DA 26-996, 18 Sep), a Matic Robots floor-cleaning robot and charging dock (DA 26-1063, 2 Oct) `[fcc-ca]`, Volley Automation AGVs/AMRs (DA 26-1114, 16 Oct, [PDF](https://docs.fcc.gov/public/attachments/DA-26-1114A1.pdf)) and Vulcan Robotics' Sourccey mobile robotic platform (DA 26-1130, 21 Oct, [PDF](https://docs.fcc.gov/public/attachments/DA-26-1130A1.pdf)). None was for a humanoid or quadruped.
 - **Tariffs.** China-origin goods under HTS 8479.50.00 face about 40% in combined US duties `[usitc-8479]` `[hts-ch99]`; Canada charges no MFN duty on the same heading, plus 5% GST at import `[cbsa-ch84]`. Treat 40% as a snapshot (a Section 232 robotics investigation was still open on 12 October 2026 `[fr-232]`), and many service robots may not classify under 8479.50: ask your broker.
 - **Cross-border repair is narrower than people assume:**
   - US: Canadian citizens can enter as CUSMA business visitors for after-sales installation and repair only under a warranty or service contract incidental to the sale, during its term, for equipment made outside the US and bought from an enterprise outside the US, by people with specialized knowledge essential to the seller's contractual obligation `[ecfr-2142]`. State Department B-1 guidance adds that the sales contract must obligate the seller to provide the service and the visitor must receive no pay from a US source `[fam-b1]`.
@@ -74,7 +74,7 @@ Where the annual cost comes from (KeepRobots illustrative estimate, `[kr-04]`):
 | Own BC engineer at 300 on-site hours/year | 3 × C$427 ≈ **C$1,281** |
 | Own BC engineer at 600 on-site hours/year | 3 × C$213 ≈ **C$639** |
 | Your provider's quote | call-out + 3 × hourly rate + any diagnostic not credited |
-| Example: KeepRobots published rate, core Metro Vancouver zone | C$100 call-out + 3 × C$150 labour = **C$550**, plus parts and tax, if you approve the repair (the C$200 per-unit diagnostic fee is then credited; if you decline, it is not credited and the call-out still applies) ([published pricing](https://keeprobots.com/faq/)) |
+| Example: KeepRobots published rate, core Metro Vancouver zone | C$100 call-out + 3 × C$150 labour = **C$550**, plus parts and tax, if you approve the repair (the C$200 diagnostic fee is then credited; if you decline, it is not credited and the call-out still applies) ([published pricing](https://keeprobots.com/faq/)) |
 
 With that example, C$550 ÷ 3 ≈ C$183 per on-site hour, so break-even is C$128,000 ÷ C$183 ≈ **700 on-site hours a year** in one metro `[kr-04]`, roughly an engineer at half load. A provider charging more per hour moves the line earlier; one charging less moves it later.
 
@@ -125,6 +125,7 @@ For models already authorized: stock wear parts and key modules near customers o
 ## Practical checklists
 
 - [Robot Site Readiness Checklist (Canada & US)](docs/site-readiness-checklist.md): a copy-paste list of what to confirm with the customer's building before you ship a mobile robot or arm (floors, power, Wi-Fi, elevators, fire code, safety standards, privacy, COI, receiving), with a go/no-go rule and a one-page summary table.
+- [Robot Fault Report & Dispatch Template (North America)](docs/robot-fault-report-template.md): what to send a field technician before a robot service visit, with a copy-paste ticket (Markdown + YAML), remote-vs-dispatch triage, authorization levels and example severity targets.
 
 ## Files in this repository
 
