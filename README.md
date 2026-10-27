@@ -126,6 +126,7 @@ For models already authorized: stock wear parts and key modules near customers o
 
 - [Robot Site Readiness Checklist (Canada & US)](docs/site-readiness-checklist.md): a copy-paste list of what to confirm with the customer's building before you ship a mobile robot or arm (floors, power, Wi-Fi, elevators, fire code, safety standards, privacy, COI, receiving), with a go/no-go rule and a one-page summary table.
 - [Robot Fault Report & Dispatch Template (North America)](docs/robot-fault-report-template.md): what to send a field technician before a robot service visit, with a copy-paste ticket (Markdown + YAML), remote-vs-dispatch triage, authorization levels and example severity targets.
+- [US Customer Support Escalation Sheet for Overseas Robot Makers](docs/us-customer-escalation-sheet.md): a one-page "who to call / what happens next" template a robot maker in China gives its US customers (L1/L2 remote, L3 on-site partner, blanks for response and on-site targets), with Beijing vs US Pacific/Central/Eastern business-hour tables for daylight and standard time and a rule for when to dispatch on-site.
 
 ## Files in this repository
 
