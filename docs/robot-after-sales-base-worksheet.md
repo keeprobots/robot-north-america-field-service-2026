@@ -115,7 +115,7 @@ Score it: if the product still changes fast and depends on live remote guidance 
 
 ### FCC gate: can the model be sold in the US yet?
 
-On 2026-07-28 the FCC added foreign-produced advanced robotic equipment (including autonomous mobile robots, humanoids and quadrupeds) to the Covered List (DA 26-786). New models without FCC authorization before that date cannot currently enter the US. As of 2026-10-23 the FCC had announced 7 conditional approvals for robots (DA 26-1154). Canada uses its own ISED certification; we found no public information that Canada has taken a similar step.
+On 2026-07-28 the FCC added foreign-produced advanced robotic equipment (including autonomous mobile robots, humanoids and quadrupeds) to the Covered List (DA 26-786). New models without FCC authorization before that date cannot currently enter the US. As of 2026-10-30 the FCC had announced 13 conditional approvals for robots (DA 26-1181, Appendix B); none is a quadruped, and the only humanoid is Lightberry's Lumi (per the company). Canada uses its own ISED certification; we found no public information that Canada has taken a similar step.
 
 - [ ] Every model planned for US customers has FCC authorization → US base is an option
 - [ ] Any new model without authorization → **no US base for it yet.** Put the first base in Canada for demos, pilots and reference customers
@@ -210,7 +210,7 @@ Related templates in this repo: [Robot Commissioning & Site Acceptance Test Temp
 - YVR China routes 2026–27 (Castanet) — https://www.castanetkamloops.net/news/BC/632097/BC-tourism-to-benefit-as-YVR-China-flights-set-to-surge-40
 - CBSA, 2026 Customs Tariff, Chapter 84 — https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/html/00/ch84-eng.html
 - USITC Harmonized Tariff Schedule, 8479.50 — https://hts.usitc.gov/search?query=8479.50
-- FCC DA 26-786 (Covered List: foreign-produced advanced robotic equipment) — https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf ; FCC DA 26-1154 (Appendix B, conditional approvals, updated 2026-10-23) — https://docs.fcc.gov/public/attachments/DA-26-1154A1.pdf
+- FCC DA 26-786 (Covered List: foreign-produced advanced robotic equipment) — https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf ; FCC DA 26-1181 (Appendix B, conditional approvals, updated 2026-10-30) — https://docs.fcc.gov/public/attachments/DA-26-1181A1.pdf
 - KeepRobots, 北美第一个机器人售后据点放哪？(the Chinese article this worksheet is based on, with all of the above) — https://keeprobots.com/zh/notes/robot-after-sales-base-vancouver-toronto/
 
 Entry rules are summaries of the source texts as checked on 2026-10-29. Each entry is decided case by case by the border officer; **this is not legal or immigration advice**. Tariff and FCC figures were checked 2026-10-23 to 10-27; use the official version on the day you ship. City distances are straight-line between city centres, calculated by us; the ~230 km Vancouver–Seattle road figure is from https://keeprobots.com/partners/vancouver/ and its sources. The 4-hour threshold and the placement rules are our judgement. Found an error? Open an issue. We check and correct.
