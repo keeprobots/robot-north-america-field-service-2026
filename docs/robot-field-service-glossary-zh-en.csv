@@ -1,0 +1,216 @@
+﻿category,zh,en,field_note
+Safety and lockout / 安全与上锁挂牌,急停 / 急停按钮,Emergency stop (E-stop) / E-stop button,"A safety stop, not lockout and not energy isolation. A literal translation often gives just ""stop"": check whether the text means 急停 or 停止."
+Safety and lockout / 安全与上锁挂牌,停止 / 暂停,Stop / pause,Normal operational stop. Not a safety function.
+Safety and lockout / 安全与上锁挂牌,安全回路 / 安全链,Safety circuit / safety chain,"The hardwired loop of E-stops, interlocks and bumpers. A ""safety circuit open"" fault usually means one device in the loop is tripped or a connector is loose."
+Safety and lockout / 安全与上锁挂牌,联锁 / 门锁开关,Interlock / interlock switch,On cells and stations: a door or gate switch that stops the robot when opened.
+Safety and lockout / 安全与上锁挂牌,安全激光扫描仪 / 安全激光雷达,Safety laser scanner,"A certified safety device. On many AMRs the same scanner also feeds navigation data, but only its safety fields are the safety function. Chinese docs often call both the safety scanner and the navigation lidar 激光雷达; ask which one."
+Safety and lockout / 安全与上锁挂牌,保护区域 / 警告区域,Protective field / warning field,"Scanner field sets. Changing them changes the robot's safety behavior: maker sign-off, not a field tweak."
+Safety and lockout / 安全与上锁挂牌,防撞条 / 安全触边,Bumper / safety edge,Pressure-sensitive strip on AMRs and cleaning robots. Triggers a stop.
+Safety and lockout / 安全与上锁挂牌,使能开关 / 三位置使能开关,Enabling switch / three-position enabling device,"On the teach pendant. Usually called an enabling device or ""deadman"" switch; ""enable switch"" is also understood."
+Safety and lockout / 安全与上锁挂牌,安全转矩关断（STO）,Safe torque off (STO),Removes motor torque. Not lockout. See the LOTO template glossary.
+Safety and lockout / 安全与上锁挂牌,上锁挂牌（LOTO）,Lockout/tagout (LOTO),Lock and tag together. Full procedure: robot-lockout-tagout-procedure-template.md.
+Safety and lockout / 安全与上锁挂牌,能量隔离,Energy isolation,"Breaker, disconnect, battery plug. A push button is not an isolating device."
+Safety and lockout / 安全与上锁挂牌,储存能量 / 残余能量,Stored energy / residual energy,"Battery, capacitors, springs, gravity, compressed air."
+Safety and lockout / 安全与上锁挂牌,零能量验证,Zero energy verification / verification of isolation,
+Safety and lockout / 安全与上锁挂牌,高压,High voltage,Used loosely in Chinese manuals. Ask for the actual voltage (for example the battery pack voltage) instead of relying on the word.
+Safety and lockout / 安全与上锁挂牌,漏电保护器,Residual current device (RCD),Closest North American devices: GFCI (personnel protection) or ground-fault protection (GFP). Ratings differ; don't assume they are equivalent.
+Safety and lockout / 安全与上锁挂牌,作业许可 / 动火作业,Work permit / hot work,"Some customer sites need a permit before soldering, grinding or opening panels."
+Power and battery / 电源与电池,磷酸铁锂（LFP）,Lithium iron phosphate (LFP),"Generally considered lower thermal-runaway risk than NMC, but still lithium-ion dangerous goods for shipping (Class 9, UN 3480 / UN 3481)."
+Power and battery / 电源与电池,三元锂（NMC / NCA）,"NMC / NCA lithium-ion (""ternary"")","A literal translation gives ""ternary lithium""; English service docs say NMC or NCA."
+Power and battery / 电源与电池,电芯,Cell,"A literal translation gives ""battery core"" or ""electric core""."
+Power and battery / 电源与电池,电池管理系统（BMS）,Battery management system (BMS),"Many battery fault codes originate in the BMS. Ask the maker how to read the BMS log, not just the robot's error screen."
+Power and battery / 电源与电池,电量 / 剩余电量（SOC）,Battery level / state of charge (SOC),"电量 often comes out of a literal translation as ""electricity"" or ""power""."
+Power and battery / 电源与电池,电池健康度（SOH）,State of health (SOH),"Usually a percentage of original capacity. The replacement threshold is the maker's, often in the warranty terms."
+Power and battery / 电源与电池,过充 / 过放,Overcharge / over-discharge,"Common BMS fault codes. On many packs, deep over-discharge locks the pack out until the maker's recovery procedure is run."
+Power and battery / 电源与电池,过流 / 短路,Overcurrent / short circuit,"Note when it trips: at power-on, under load or while charging. That narrows it to motor, wiring or charger side."
+Power and battery / 电源与电池,过压 / 欠压,Overvoltage / undervoltage,"欠压 can come out of a literal translation as ""under-pressure""."
+Power and battery / 电源与电池,过温 / 过热,Over-temperature / overheating,"Record ambient temperature and what the robot was doing (charging, ramps, heavy payload)."
+Power and battery / 电源与电池,休眠 / 运输模式,Sleep / shipping (storage) mode,"Some packs only wake when connected to the charger. Varies by maker, confirm with the maker."
+Power and battery / 电源与电池,充电桩 / 充电座,Charging dock / charging station,"A literal translation gives ""charging pile"". It means the dock."
+Power and battery / 电源与电池,充电触点 / 充电电极片,Charging contacts,Worn or dirty contacts are a common cause of docking or charging faults.
+Power and battery / 电源与电池,空气开关 / 空开,Circuit breaker (MCB),"A literal translation gives ""air switch"". On site in North America just say ""breaker"". A DIN-rail MCB in a panel built in China may be a supplementary protector (UL 1077 type), not a branch-circuit breaker (UL 489 type); don't treat it as the branch protection."
+Power and battery / 电源与电池,预充电路 / 预充电阻,Pre-charge circuit / pre-charge resistor,A failed pre-charge can show up as a power-on fault or a main contactor that won't close.
+Power and battery / 电源与电池,直流母线 / 母线电容,DC bus / DC bus capacitor,Can stay charged after power-off. Discharge time comes from the manual.
+Power and battery / 电源与电池,维修开关 / 维修插头,Service disconnect / service plug,"Varies by maker, confirm with the maker."
+Power and battery / 电源与电池,强电 / 弱电,"Power wiring (line voltage) / low-voltage, signal and data wiring","A literal translation gives ""strong / weak electricity""."
+Power and battery / 电源与电池,火线 / 零线 / 地线,Line (hot) / neutral / ground,"A literal translation gives ""fire wire / zero wire""."
+Power and battery / 电源与电池,单相 / 三相,Single-phase / three-phase,"All North America is 60 Hz. Homes: 120/240 V split-phase. Commercial buildings often have 208Y/120 V three-phase, so a ""single-phase"" 2-pole outlet may give 208 V, not 240 V. Industrial: 480 V three-phase (US), 600 V (Canada). China: 220 V single-phase / 380 V three-phase, 50 Hz. Check the charger's rated input range (for example 200–240 V, 50/60 Hz) before shipping."
+Drive and motion / 驱动与运动,驱动器 / 伺服驱动器,Drive / servo drive (amplifier),"For servo amplifiers say ""servo drive"". ""Driver"" alone can be confused with a software driver; ""motor driver"" or ""stepper driver"" is normal for small driver boards."
+Drive and motion / 驱动与运动,万向轮,Caster (swivel caster),"A literal translation gives ""universal wheel""."
+Drive and motion / 驱动与运动,舵轮,Steerable drive wheel (steer-drive unit),"A literal translation gives ""rudder wheel""."
+Drive and motion / 驱动与运动,麦克纳姆轮 / 麦轮,Mecanum wheel,
+Drive and motion / 驱动与运动,底盘,Chassis / mobile base,"In robotics 底盘 often means the whole mobile base module (motors, battery, sensors), not just the frame."
+Drive and motion / 驱动与运动,减速机 / 减速器,Gearbox / speed reducer,
+Drive and motion / 驱动与运动,谐波减速器,"Strain wave gear (often called ""harmonic drive"")",Harmonic Drive is a trademark; strain wave gear is the generic term.
+Drive and motion / 驱动与运动,RV 减速器,Cycloidal (RV) reducer,"RV is a Nabtesco product name, used generically in Chinese."
+Drive and motion / 驱动与运动,编码器（绝对值 / 增量）,Encoder (absolute / incremental),
+Drive and motion / 驱动与运动,抱闸 / 制动器,Holding brake / brake,"A literal translation gives ""hug brake"". See False friends."
+Drive and motion / 驱动与运动,松抱闸 / 刹车释放,Brake release,Gravity hazard on arm axes and lift tops: support the load first.
+Drive and motion / 驱动与运动,堵转,Stall (locked rotor),"A literal translation gives ""locked rotation""."
+Drive and motion / 驱动与运动,跟随误差 / 位置超差,Following error / position deviation error,"Varies by maker, confirm with the maker."
+Drive and motion / 驱动与运动,打滑,Wheel slip,"Check tire wear, floor contamination and payload."
+Drive and motion / 驱动与运动,顶升机构,Lift (jacking) mechanism,The lift top on shelf-lifting AMRs.
+Drive and motion / 驱动与运动,关节 / 关节模组,Joint / joint module (actuator),
+Drive and motion / 驱动与运动,步态,Gait,Legged robots.
+Drive and motion / 驱动与运动,站立 / 趴下（四足）,Stand / lie down (quadruped),Command names vary by maker.
+Sensors and navigation / 传感器与导航,激光雷达,Lidar,"雷达 on its own in robot docs usually means lidar, not radio radar."
+Sensors and navigation / 传感器与导航,单线 / 多线激光雷达,2D (single-line) / 3D (multi-line) lidar,
+Sensors and navigation / 传感器与导航,毫米波雷达,Millimeter-wave radar,This one is radar.
+Sensors and navigation / 传感器与导航,防跌落传感器,Cliff (drop-off) sensor,Dark or shiny floors can trigger false cliff detection.
+Sensors and navigation / 传感器与导航,惯性测量单元（IMU）/ 陀螺仪,Inertial measurement unit (IMU) / gyroscope,
+Sensors and navigation / 传感器与导航,建图,Mapping (map building),
+Sensors and navigation / 传感器与导航,定位,Localization,"In navigation it is localization, not ""positioning"". See False friends."
+Sensors and navigation / 传感器与导航,重定位,Relocalization,"Not ""relocation"" (moving the robot to a new site)."
+Sensors and navigation / 传感器与导航,定位丢失 / 定位失败,Localization lost / localization failed,
+Sensors and navigation / 传感器与导航,激光 SLAM / 视觉 SLAM,Lidar SLAM / visual SLAM,
+Sensors and navigation / 传感器与导航,二维码导航,QR-code (fiducial marker) navigation,Floor or ceiling codes. Damaged or dirty codes cause localization faults.
+Sensors and navigation / 传感器与导航,反光板,Reflector (reflective target),Used by some lidar navigation systems.
+Sensors and navigation / 传感器与导航,避障,Obstacle avoidance,
+Sensors and navigation / 传感器与导航,绕障 / 停障,Detour around obstacles / stop at obstacles,"Configuration choices, often per zone."
+Sensors and navigation / 传感器与导航,虚拟墙 / 禁行区,Virtual wall / no-go (keep-out) zone,
+Sensors and navigation / 传感器与导航,站点 / 点位,Station / waypoint (point),"Varies by maker, confirm with the maker."
+Sensors and navigation / 传感器与导航,回充 / 自动回充,Return to dock / auto-docking,"A literal translation gives ""recharge back""."
+Sensors and navigation / 传感器与导航,对桩,Docking alignment,
+Sensors and navigation / 传感器与导航,乘梯 / 梯控,Elevator riding / elevator integration (elevator control interface),"梯控 is not ""ladder control""."
+Sensors and navigation / 传感器与导航,闸机 / 门禁,Turnstile (gate) / access control,
+Sensors and navigation / 传感器与导航,外参标定 / 内参标定,Extrinsic calibration / intrinsic calibration,"Sensor mounting position vs the sensor's own parameters. Needed after replacing or remounting a sensor. Varies by maker, confirm with the maker."
+Sensors and navigation / 传感器与导航,遮挡 / 脏污,Occluded / dirty (sensor window),Common cause of navigation faults; clean before deeper diagnosis.
+Robot arms and cobots / 机械臂与协作机器人,协作机器人,Collaborative robot (cobot),
+Robot arms and cobots / 机械臂与协作机器人,本体,Robot arm / mechanical unit,"As opposed to the controller. A literal translation gives ""body"" or ""ontology""."
+Robot arms and cobots / 机械臂与协作机器人,控制柜 / 控制箱,Controller cabinet / control box,
+Robot arms and cobots / 机械臂与协作机器人,示教器,Teach pendant,
+Robot arms and cobots / 机械臂与协作机器人,示教 / 拖动示教,Teaching / hand guiding (lead-through),"A literal translation gives ""drag teaching"". Brand names for the mode vary."
+Robot arms and cobots / 机械臂与协作机器人,手动模式 / 自动模式 / 远程模式,Manual / automatic / remote mode,
+Robot arms and cobots / 机械臂与协作机器人,点动,Jog,"""Jog"" is the usual robot term; ""inching"" is also used on some machines. A literal translation can give ""click motion""."
+Robot arms and cobots / 机械臂与协作机器人,末端执行器 / 末端工具,End effector / end-of-arm tooling (EOAT),
+Robot arms and cobots / 机械臂与协作机器人,工具中心点（TCP）,Tool center point (TCP),Not TCP/IP.
+Robot arms and cobots / 机械臂与协作机器人,基坐标系 / 世界坐标系,Base frame / world frame,Frame names vary by maker.
+Robot arms and cobots / 机械臂与协作机器人,工具坐标系 / 用户坐标系 / 工件坐标系,Tool frame / user frame / work object frame,Frame names vary by maker.
+Robot arms and cobots / 机械臂与协作机器人,回零 / 回原点,Homing / move to home position,"On absolute-encoder arms: moves to the home position, reference unchanged. On incremental-encoder axes (linear modules, external axes, lifts), homing (回原点) searches the home switch and sets the reference. Ask which. See False friends."
+Robot arms and cobots / 机械臂与协作机器人,零点标定 / 零位校准,Zero calibration (mastering on some brands),"Changes the reference. Done wrong, every taught point shifts. Varies by maker, confirm with the maker."
+Robot arms and cobots / 机械臂与协作机器人,编码器电池,Encoder backup battery,"On many arms, letting it run flat (or swapping it the wrong way) loses position data and means zero calibration. Follow the maker's procedure."
+Robot arms and cobots / 机械臂与协作机器人,碰撞检测 / 碰撞灵敏度,Collision detection / collision sensitivity,
+Robot arms and cobots / 机械臂与协作机器人,负载 / 有效载荷,Payload,"For a motor, 负载 just means load."
+Robot arms and cobots / 机械臂与协作机器人,负载设置（质量 / 质心）,Payload settings (mass / center of gravity),Wrong settings can cause false collision stops or poor motion.
+Robot arms and cobots / 机械臂与协作机器人,力传感器 / 六维力传感器,Force sensor / 6-axis force-torque (F/T) sensor,
+Robot arms and cobots / 机械臂与协作机器人,软限位 / 硬限位,Soft limit / hard stop (mechanical stop),
+Robot arms and cobots / 机械臂与协作机器人,重复定位精度,Repeatability,"A literal translation gives ""repeated positioning accuracy"". It is not absolute accuracy."
+Robot arms and cobots / 机械臂与协作机器人,位姿 / 姿态,Pose / orientation,Pose = position + orientation.
+Robot arms and cobots / 机械臂与协作机器人,安装方式：正装 / 倒装 / 侧装,Mounting: floor / ceiling (inverted) / wall,Mounting must match the controller setting.
+Robot arms and cobots / 机械臂与协作机器人,外部轴 / 第七轴,External axis / 7th axis (e.g. linear track),
+Cleaning robots / 清洁机器人,洗地机 / 洗地机器人,Floor scrubber / robotic scrubber (scrubber-dryer),
+Cleaning robots / 清洁机器人,扫地机,Sweeper (commercial) / robot vacuum (consumer),
+Cleaning robots / 清洁机器人,滚刷,Cylindrical (roller) brush,
+Cleaning robots / 清洁机器人,盘刷,Disc brush,
+Cleaning robots / 清洁机器人,边刷,Side brush,
+Cleaning robots / 清洁机器人,针盘 / 百洁垫,Pad driver / scrub pad,"Varies by maker, confirm with the maker."
+Cleaning robots / 清洁机器人,吸水扒,Squeegee assembly,
+Cleaning robots / 清洁机器人,刮条 / 胶条,Squeegee blade,"Wear part. Varies by maker, confirm with the maker."
+Cleaning robots / 清洁机器人,清水箱,Clean water tank / solution tank,
+Cleaning robots / 清洁机器人,污水箱,Recovery tank (dirty water tank),
+Cleaning robots / 清洁机器人,吸水电机,Vacuum (suction) motor,
+Cleaning robots / 清洁机器人,尘盒 / 垃圾箱,Dust bin / debris hopper,
+Cleaning robots / 清洁机器人,基站 / 工作站,Base station (auto-empty / refill / drain),工作站 can also mean a workstation PC; in cleaning docs it is usually the base station.
+Cleaning robots / 清洁机器人,自动加排水,Auto fill and drain,
+Cleaning robots / 清洁机器人,清洁液 / 配比,Cleaning solution / dilution ratio,Use the chemical the maker approves; wrong chemicals can damage seals and tanks.
+Cleaning robots / 清洁机器人,出水量,Solution flow rate,
+Cleaning robots / 清洁机器人,水渍 / 拖尾,Water residue / streaking,"Common checks: squeegee blade wear and angle, suction, hoses."
+"Software, network and firmware / 软件、网络与固件",升级 / OTA 升级,Update / over-the-air (OTA) update,"升级 usually means software update, not a paid upgrade. See False friends."
+"Software, network and firmware / 软件、网络与固件",版本号,Version number,Record before and after every update.
+"Software, network and firmware / 软件、网络与固件",刷机,Flash / re-image,Usually needs the maker's tools and approval.
+"Software, network and firmware / 软件、网络与固件",日志 / 导出日志,Log / export logs,
+"Software, network and firmware / 软件、网络与固件",报错 / 告警 / 故障,Error / warning (alarm) / fault,Severity levels vary by maker: ask which level stops the robot.
+"Software, network and firmware / 软件、网络与固件",错误码 / 故障码,Error code / fault code,Copy codes exactly; never translate them.
+"Software, network and firmware / 软件、网络与固件",复位,Reset (clear fault),Not factory reset. On some arms it also means return to the start position. See False friends.
+"Software, network and firmware / 软件、网络与固件",恢复出厂设置,Factory reset,Usually erases maps and configuration. Never on site without the maker's written OK.
+"Software, network and firmware / 软件、网络与固件",上位机 / 下位机,Host PC software / embedded controller,"A literal translation gives ""upper / lower computer""."
+"Software, network and firmware / 软件、网络与固件",工控机,Industrial PC (IPC),
+"Software, network and firmware / 软件、网络与固件",调度系统 / 车队管理系统,Fleet management system (dispatch),
+"Software, network and firmware / 软件、网络与固件",后台 / 管理后台,Back end / admin console,"A literal translation gives ""backstage""."
+"Software, network and firmware / 软件、网络与固件",远程协助 / 远程运维,Remote support / remote operations and maintenance,
+"Software, network and firmware / 软件、网络与固件",参数 / 配置文件,Parameters / configuration file,Back up before changing anything.
+"Software, network and firmware / 软件、网络与固件",通讯 / 通讯异常,Communication / communication fault,
+"Software, network and firmware / 软件、网络与固件",静态 IP / 端口,Static IP / port,Customer IT usually has to open ports and approve addresses.
+"Software, network and firmware / 软件、网络与固件",白名单,Allowlist (whitelist),
+"Software, network and firmware / 软件、网络与固件",掉线 / 断网 / 离线,Disconnected / network drop / offline,
+"Software, network and firmware / 软件、网络与固件",4G 模块 / 物联网卡,Cellular (LTE) modem / IoT SIM,Check the module supports North American carriers and bands before shipping.
+After-sales process / 售后流程,售后 / 售后服务,After-sales service / service and support,"North American customers mostly say ""service"" or ""support""."
+After-sales process / 售后流程,报修,Service request / fault report,
+After-sales process / 售后流程,工单,Service ticket / work order,The maker's ticket and the technician's work order may have different numbers: record both.
+After-sales process / 售后流程,上门 / 上门服务,On-site visit / field service visit,
+After-sales process / 售后流程,远程排查,Remote troubleshooting,
+After-sales process / 售后流程,故障现象,Symptom,
+After-sales process / 售后流程,维修,Repair,Fixing a fault. Not the same as 维护 / 保养.
+After-sales process / 售后流程,维护 / 保养,Maintenance / servicing,
+After-sales process / 售后流程,预防性维护 / 定期保养,Preventive maintenance (PM) / scheduled maintenance,
+After-sales process / 售后流程,巡检,Inspection round,Also the name of a robot type (inspection robot).
+After-sales process / 售后流程,点检,Routine check (checklist inspection),
+After-sales process / 售后流程,易损件 / 耗材,Wear parts / consumables,Usually excluded from warranty; check the contract.
+After-sales process / 售后流程,备件 / 备品备件,Spare parts,
+After-sales process / 售后流程,物料号 / 料号,Part number (PN),"A literal translation gives ""material number""."
+After-sales process / 售后流程,序列号（SN）,Serial number (S/N),
+After-sales process / 售后流程,返厂 / 返修,Return to factory / return for repair,
+After-sales process / 售后流程,退货授权（RMA）,Return merchandise authorization (RMA),"Chinese makers may call the RMA number 返修单号 or similar. Varies by maker, confirm with the maker."
+After-sales process / 售后流程,故障件 / 坏件,Defective part,
+After-sales process / 售后流程,旧件返还,Return of the removed (defective) part,Some makers require it before crediting a warranty part.
+After-sales process / 售后流程,保修 / 质保,Warranty,质保期 = warranty period.
+After-sales process / 售后流程,维保 / 维保合同,Maintenance (service) / maintenance contract,Not warranty. See False friends.
+After-sales process / 售后流程,人为损坏,Damage from misuse (customer-caused damage),
+After-sales process / 售后流程,调试 / 安装调试,Commissioning / installation and commissioning,"On a site job: commissioning, not debugging. In software tickets (程序调试 / 软件调试) it does mean debugging. See False friends."
+After-sales process / 售后流程,验收,Acceptance / sign-off,
+After-sales process / 售后流程,出厂验收（FAT）/ 现场验收（SAT）,Factory acceptance test (FAT) / site acceptance test (SAT),
+After-sales process / 售后流程,响应时间 / 到场时间 / 修复时间,Response time / on-site arrival time / time to restore,响应 alone is vague: write which clock and when it starts.
+After-sales process / 售后流程,上报 / 升级处理,Escalation,升级 also means software update: check the context.
+After-sales process / 售后流程,关单 / 结单,Close the ticket,
+After-sales process / 售后流程,服务报告 / 维修报告,Field service report / repair report,
+After-sales process / 售后流程,服务通告 / 技术通报,Service bulletin / technical bulletin,
+After-sales process / 售后流程,维修手册 / 用户手册,Service manual / user manual,Record the manual version used.
+After-sales process / 售后流程,原理图 / 接线图,Schematic / wiring diagram,
+Contracts and commercial (terms only) / 合同与商务（只列术语）,询价（RFQ）/ 报价单,Request for quote (RFQ) / quotation,
+Contracts and commercial (terms only) / 合同与商务（只列术语）,框架协议 / 主服务协议（MSA）,Framework agreement / master service agreement (MSA),Not always the same thing; read the document.
+Contracts and commercial (terms only) / 合同与商务（只列术语）,工作说明书（SOW）,Statement of work (SOW),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,服务水平协议（SLA）,Service level agreement (SLA),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,发票,Invoice,A Chinese 发票 (fapiao) is an official tax document. A North American invoice is a commercial document.
+Contracts and commercial (terms only) / 合同与商务（只列术语）,定金 / 订金 / 预付款,Earnest money (定金) / advance deposit (订金) / prepayment,定金 and 订金 can have different legal effects in Chinese law: have counsel check the wording.
+Contracts and commercial (terms only) / 合同与商务（只列术语）,账期,Payment terms (e.g. Net 30),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,含税 / 不含税,Tax included / before tax (plus tax),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,人工费 / 工时,Labor rate / labor hours,Canadian documents spell it labour.
+Contracts and commercial (terms only) / 合同与商务（只列术语）,诊断费,Diagnostic fee,
+Contracts and commercial (terms only) / 合同与商务（只列术语）,上门费,Call-out fee (trip charge),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,保密协议（NDA）,Non-disclosure agreement (NDA),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,授权服务商,Authorized service provider,
+Contracts and commercial (terms only) / 合同与商务（只列术语）,代理 / 经销商,Distributor / reseller (dealer),"代理 may mean a distributor (buys and resells) or a sales agent / rep (sells on commission, no title to the goods). Ask which."
+Contracts and commercial (terms only) / 合同与商务（只列术语）,贴牌 / 白标,White label / private label,See False friends: OEM / 代工.
+Contracts and commercial (terms only) / 合同与商务（只列术语）,责任限制,Limitation of liability,
+Contracts and commercial (terms only) / 合同与商务（只列术语）,违约金,Liquidated damages,"Legal effect differs between jurisdictions; counsel's job, not the glossary's."
+Contracts and commercial (terms only) / 合同与商务（只列术语）,保险证明（COI）,Certificate of insurance (COI),
+Contracts and commercial (terms only) / 合同与商务（只列术语）,国际贸易术语（Incoterms）,"Incoterms (e.g. EXW, FOB, DDP)",
+Contracts and commercial (terms only) / 合同与商务（只列术语）,报关 / 清关,Customs declaration / customs clearance,
+Rules and marks (names only) / 法规与认证名称（只写名称）,OSHA 29 CFR 1910.147,OSHA 29 CFR 1910.147,US federal standard on the control of hazardous energy (lockout/tagout).
+Rules and marks (names only) / 法规与认证名称（只写名称）,WorkSafeBC / OHS 法规第 10 部分,WorkSafeBC / OHS Regulation Part 10,BC's workplace safety agency; Part 10 covers de-energization and lockout.
+Rules and marks (names only) / 法规与认证名称（只写名称）,NRTL,Nationally Recognized Testing Laboratory (NRTL),A lab recognized under OSHA's NRTL program to test and certify products to US safety standards.
+Rules and marks (names only) / 法规与认证名称（只写名称）,UL / UL 3300,UL / UL 3300,"UL is a US standards and certification organization; UL 3300 is a UL standard for service, communication, information, education and entertainment robots."
+Rules and marks (names only) / 法规与认证名称（只写名称）,CSA Z434,CSA Z434,"Canadian industrial robot safety standard, based on ISO 10218."
+Rules and marks (names only) / 法规与认证名称（只写名称）,ISO 10218 / ISO/TS 15066,ISO 10218 / ISO/TS 15066,International industrial robot safety standard / technical specification for collaborative robot applications.
+Rules and marks (names only) / 法规与认证名称（只写名称）,ANSI/A3 R15.06 / R15.08,ANSI/A3 R15.06 / R15.08,US industrial robot safety standard (based on ISO 10218) / US industrial mobile robot safety standard.
+Rules and marks (names only) / 法规与认证名称（只写名称）,FCC ID,FCC ID,"Identifier on radio equipment authorized by the US FCC through certification. Equipment authorized under SDoC has no FCC ID, so a missing FCC ID is not by itself a problem."
+Rules and marks (names only) / 法规与认证名称（只写名称）,ISED 认证号（IC）,ISED certification number (IC:),"Innovation, Science and Economic Development Canada radio certification number on the label."
+Rules and marks (names only) / 法规与认证名称（只写名称）,CCC / 3C,China Compulsory Certification (CCC),Chinese mark. Not a North American mark.
+Rules and marks (names only) / 法规与认证名称（只写名称）,UN38.3,UN 38.3,UN test series for lithium batteries in transport.
+Rules and marks (names only) / 法规与认证名称（只写名称）,安全数据表（SDS / MSDS）,Safety data sheet (SDS),MSDS is the older name.
+False friends / 机翻常见坑,调试,Commissioning (on site) / debugging (software),"Literal translation: ""debugging"". On a site job: commissioning, i.e. installing, configuring, testing and handing over the robot. A quote for ""debugging"" reads like a software bug fix; a quote for commissioning is what the customer expects. In software tickets (程序调试 / 软件调试) it does mean debugging."
+False friends / 机翻常见坑,标定,Calibration (ask which kind),"Literal translation: ""calibration"" (one thing). Several different jobs: sensor extrinsic calibration, camera intrinsics, arm zero calibration (mastering), hand-eye calibration, map alignment to the site. Ask which 标定, what tool it needs and whether it changes taught points."
+False friends / 机翻常见坑,急停 vs 停止,Emergency stop vs stop,"Literal translation: both come out as ""stop"". 急停 is the emergency stop (a safety function); 停止 / 暂停 is a normal stop or pause. Neither is lockout."
+False friends / 机翻常见坑,维保,Maintenance service (contract),"Literal translation: ""warranty"". Maintenance service, often a paid contract. Warranty is 保修 / 质保. Some makers say 免费维保期 (free maintenance period): ask what it covers and whether parts are included."
+False friends / 机翻常见坑,升级,Software update / escalation,"Literal translation: ""upgrade"". Usually a software update. In a ticket, 升级 can also mean escalation (升级处理). Neither implies a paid upgrade."
+False friends / 机翻常见坑,复位,Clear fault (reset alarm),"Literal translation: ""reset"" (factory reset). Usually clear the fault / reset the alarm. On some arms it means move back to the start position. Factory reset is 恢复出厂设置, and it can wipe maps and settings. Varies by maker, confirm with the maker."
+False friends / 机翻常见坑,回零 vs 零点标定,Homing vs zero calibration,"Literal translation: both come out as ""zeroing"". 回零 = homing: move to home. On absolute-encoder arms nothing changes; on incremental-encoder axes (linear modules, external axes, lifts) it also re-finds the home switch and sets the reference. 零点标定 = zero calibration: changes the stored zero; done wrong, every taught point moves. Ask which."
+False friends / 机翻常见坑,抱闸,Holding brake,"Literal translation: ""hug brake"". Holding brake. On many servo axes it is designed to hold a stopped load, not to stop motion in normal operation. Releasing it on an arm axis or lift top lets gravity act."
+False friends / 机翻常见坑,本体,Robot arm (mechanical unit),"Literal translation: ""body"" / ""ontology"". The robot arm (mechanical unit) as opposed to the controller cabinet. ""本体 + 控制柜"" = arm + controller."
+False friends / 机翻常见坑,雷达,Lidar,"Literal translation: ""radar"". In robot docs usually lidar (激光雷达). Radio radar is 毫米波雷达."
+False friends / 机翻常见坑,定位 / 重定位,Localization / relocalization,"Literal translation: ""positioning"" / ""relocation"". For mobile robots: localization / relocalization (finding itself on the map again). Nothing is being moved to a new site."
+False friends / 机翻常见坑,充电桩,Charging dock,"Literal translation: ""charging pile"". Charging dock / charging station."
+False friends / 机翻常见坑,上位机 / 下位机,Host PC software / embedded controller,"Literal translation: ""upper / lower computer"". Host PC software (setup or diagnostic tool on a laptop or IPC) / embedded controller (MCU, drive, robot controller)."
+False friends / 机翻常见坑,强电 / 弱电,Power wiring / low-voltage wiring,"Literal translation: ""strong / weak electricity"". Power wiring / low-voltage, signal and data wiring. On a customer site these are often different trades."
+False friends / 机翻常见坑,空开,Circuit breaker (MCB),"Literal translation: ""air switch"". A circuit breaker (MCB). On site in North America just say ""breaker""; see the note in Power and battery about UL 1077 vs UL 489 devices."
+False friends / 机翻常见坑,OEM / 代工,Contract manufacturer (代工) vs OEM (brand owner),"Literal translation: ""OEM"" (read the opposite way). In Chinese, OEM / 代工 usually means making products for another brand. In English service documents, OEM usually means the brand owner or original manufacturer. ""Contact the OEM"" can point at two different companies: name the company."
